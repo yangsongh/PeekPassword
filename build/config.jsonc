@@ -1,0 +1,5 @@
+{
+    "target_len": 30,
+    "detect_sleep": 0.03,
+    "class_keyword": "Edit"
+}
