@@ -57,7 +57,7 @@ def save_screenshot() -> str:
     screenshot_dir = 'screenshots'
     os.makedirs(screenshot_dir, exist_ok=True)
     current_time = datetime.now().strftime('%Y%m%d_%H%M%S')
-    screenshot_path = os.path.join(screenshot_dir, f'{current_time}.png')
+    screenshot_path = os.path.join(screenshot_dir, f'{current_time}.bmp')
     success = capture_screen(screenshot_path)
     return screenshot_path if success else '保存失败'
 
